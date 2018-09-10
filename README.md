@@ -69,3 +69,6 @@ utilizar React.
 * [ ] Permite editar posts (in place).
 * [ ] Permite filtrar posts por público/amigos.
 * [ ] Permite marcar posts como _gustados_ (like).
+
+
+## [Trello](https://trello.com/b/qtgjBAI9/red-social-con-react)
