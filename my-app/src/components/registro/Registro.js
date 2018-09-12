@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Titulo from './Titulo';
 import style from './style.css';
 import Text from './Text';
+import Formulario from './Formulario';
 
 class Registro extends Component {
   constructor() {
@@ -13,6 +14,9 @@ class Registro extends Component {
         <div className = 'title'>
           <Titulo  titulo= "Little Pet Society"/>
           <Text texto = "Unete a nuestra comunidad"/>
+        </div>
+        <div className = 'registro'>
+          <Formulario/>
         </div>
       </div>
     )
