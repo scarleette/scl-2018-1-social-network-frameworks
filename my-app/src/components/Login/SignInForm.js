@@ -16,7 +16,7 @@ class SignInForm extends Component{
                 <input type="password"/>
                 <button id='loginBtn'onClick={this.firebaseLogin.bind(this)}>Login</button>
                 <button id='fbLogBtn' onClick={facebookLogin()}>Conectate con Facebook</button>
-            </div>
+             </div>
         )
     }
     firebaseLogin(){
