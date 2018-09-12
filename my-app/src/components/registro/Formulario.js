@@ -5,6 +5,7 @@ import Lock from '@material-ui/icons/Lock';
 import Button from '@material-ui/core/Button';
 
 
+
 class Formulario extends Component {
   constructor() {
     super();
@@ -13,13 +14,13 @@ class Formulario extends Component {
     return (
       <div>
         <div>
-          <Email/><Input placeholder="Placeholder"/>
+          <Email/><Input type = "email" placeholder="Placeholder"/>
         </div><br/>
         <div>
-          <Lock/><Input placeholder="Placeholder"/>
+          <Lock/><Input type = "password" placeholder="Placeholder"/>
         </div><br/>
         <div>
-          <Button size="large">Registrar</Button>
+        <Button size="large">Registrate</Button>
         </div>
       </div>
     )
