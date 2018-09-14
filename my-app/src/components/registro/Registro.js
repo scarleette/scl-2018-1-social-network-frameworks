@@ -13,7 +13,7 @@ class Registro extends Component {
       <div className = "contenedor">
         <div className = 'title'>
           <Titulo  titulo= "Little Pet Society"/>
-          <Text texto = "Unete a nuestra comunidad"/>
+          <Text texto = "Registrate en nuestra comunidad"/>
         </div>
         <div className = 'registro'>
           <Formulario/>
