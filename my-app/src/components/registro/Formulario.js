@@ -1,26 +1,26 @@
 import React, { Component } from 'react';
-import Input from '@material-ui/core/Input';
-import Email from '@material-ui/icons/Email';
-import Lock from '@material-ui/icons/Lock';
-import Button from '@material-ui/core/Button';
+import {Button, Icon} from 'react-materialize'
+
 
 
 
 class Formulario extends Component {
   constructor() {
     super();
+
+    this.state = [];
   }
   render() {
     return (
       <div>
         <div>
-          <Email/><Input type = "email" placeholder="Placeholder"/>
+          <input type = "email" placeholder="Placeholder"/>
         </div><br/>
         <div>
-          <Lock/><Input type = "password" placeholder="Placeholder"/>
+          <input type = "password" placeholder="Placeholder"/>
         </div><br/>
         <div>
-        <Button size="large">Registrate</Button>
+          <Button waves='light'><Icon>thumb_up</Icon>Registrate</Button>
         </div>
       </div>
     )
