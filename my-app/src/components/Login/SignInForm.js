@@ -2,12 +2,12 @@ import React from 'react';
 
 const SignInForm =()=>{
         return(
-            <div>
-                <input type="text"/>
-                <input type="password"/>
-                <button id='loginBtn'>Login</button>
-                <button id='fbLogBtn'>Conectate con Facebook</button>
-             </div>
+                <Row>
+                    <Input type="email" label="Email" s={12} />
+                    <Input type="password" label="password" s={12} />
+                    <Button waves='light'>button<Icon left>cloud</Icon></Button>
+                    <Button waves='light'>button<Icon right>cloud</Icon></Button>
+                </Row>
         )
 }
 
