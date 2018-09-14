@@ -1,3 +1,4 @@
+
 .title {
   text-align: center;
 }
@@ -7,5 +8,9 @@
   padding: 10em;
   display: flex;
   flex-direction: column;
-  
+}
+
+.contenedor {
+  background-color: rgb(192, 240, 240);
+  margin: 5em;
 }
