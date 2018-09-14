@@ -1,15 +1,12 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class Image extends Component{
-    constructor(){
-        super();
-    }
-    render(){
-        return
+const Image = ()=> {
+    return(
         <div>
             <img src="/img/profile.jpeg" alt="" srcset=""/>
         </div>
-    }
-}
+        )
+    };
 
-export default Image
+
+export default Image;

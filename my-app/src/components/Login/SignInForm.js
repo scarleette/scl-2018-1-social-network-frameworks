@@ -1,11 +1,6 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class SignInForm extends Component{
-    constructor(){
-        super();
-
-    }
-    render(){
+const SignInForm =()=>{
         return(
             <div>
                 <input type="text"/>
@@ -14,11 +9,8 @@ class SignInForm extends Component{
                 <button id='fbLogBtn'>Conectate con Facebook</button>
              </div>
         )
-        
-    
-        
-    }
 }
+
 
 
 export default SignInForm

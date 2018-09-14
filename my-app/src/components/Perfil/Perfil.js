@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Navbar from '../Common/Navbar';
 import Image from '../Perfil/Image';
 import Text from '../Perfil/Text';
 import Username from '../Perfil/Username';

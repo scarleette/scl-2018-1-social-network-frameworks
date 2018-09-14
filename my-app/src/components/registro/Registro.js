@@ -10,11 +10,11 @@ class Registro extends Component {
   }
   render() {
     return (
-      <div>
+      <div className = "contenedor">
         <div className = 'title'>
         <p>Holaaa Registro</p>
           <Titulo  titulo= "Little Pet Society"/>
-          <Text texto = "Unete a nuestra comunidad"/>
+          <Text texto = "Registrate en nuestra comunidad"/>
         </div>
         <div className = 'registro'>
           <Formulario/>
