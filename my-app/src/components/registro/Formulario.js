@@ -1,4 +1,10 @@
 import React, { Component } from 'react';
+import Input from '@material-ui/core/Input';
+import Email from '@material-ui/icons/Email';
+import Lock from '@material-ui/icons/Lock';
+import Button from '@material-ui/core/Button';
+
+
 
 class Formulario extends Component {
   constructor() {
@@ -8,13 +14,13 @@ class Formulario extends Component {
     return (
       <div>
         <div>
-          <input type="email" placeholder = "Email"/>
-        </div>
+          <Email/><Input type = "email" placeholder="Placeholder"/>
+        </div><br/>
         <div>
-          <input type="password" placeholder = "Password"/>
-        </div>
+          <Lock/><Input type = "password" placeholder="Placeholder"/>
+        </div><br/>
         <div>
-          <button>Registrar</button>
+        <Button size="large">Registrate</Button>
         </div>
       </div>
     )
