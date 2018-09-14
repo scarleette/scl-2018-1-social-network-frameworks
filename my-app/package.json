@@ -1,21 +1,17 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.5.0",
-    "react-dom": "^16.5.0",
-<<<<<<< HEAD
-    "react-router-dom": "^4.3.1",
-=======
-    "react-materialize": "^2.4.5",
->>>>>>> c84c47d81dd52fd3a8bc08e534b23f17b818765e
-    "react-scripts": "1.1.5"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "name": "my-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "react": "^16.5.0",
+        "react-dom": "^16.5.0",
+        "react-materialize": "^2.4.5",
+        "react-scripts": "1.1.5"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    }
 }
