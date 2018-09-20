@@ -6,16 +6,17 @@ import SignInForm from './SignInForm';
 
 
 
+
 const Login = () =>{
 
         return (
 
         <Router>
             <div>
-                <Titulo titulo="LittlePetSociety" />
-                <SignInForm />
-                <Link to="/registro">Registrate con Nosotros</Link>
-                <Route path="/registro" component={Registro}></Route>
+                    <Titulo titulo="Little Pet Society" />
+                    <SignInForm />
+                    <Link to="/registro">Registrate con Nosotros</Link>
+                    <Route path="/registro" component={Registro}></Route>   
             </div>
         </Router>
         )

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-
 import Login from '../src/components/Login/Login';
 import Perfil from '../src/components/Perfil/Perfil';
 import Registro from '../src/components/registro/Registro';

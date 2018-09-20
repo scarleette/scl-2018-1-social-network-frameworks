@@ -5,9 +5,9 @@ const SignInForm =()=>{
         return(
                 <Row>
                     <Input type="email" label="Email" s={12} />
-                    <Input type="password" label="password" s={12} />
-                    <Button waves='light'>button<Icon left>send</Icon></Button>
-                    <Button waves='light'>button<Icon right>send</Icon></Button>
+                    <Input type="password" label="Password" s={12} />
+                    <Button waves='light'>Log In <Icon left>send</Icon></Button>
+                    <Button waves='light'>Inicio con Facebook<Icon right>send</Icon></Button>
                 </Row>
         )
 }
