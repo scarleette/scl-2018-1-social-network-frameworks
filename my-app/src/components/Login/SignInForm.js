@@ -1,29 +1,17 @@
-import React, {Component} from 'react';
-import Registro from '../registro/Registro';
+import React from 'react';
+import {Row, Input, Button} from 'react-materialize';
 
-class SignInForm extends Component{
-    constructor(){
-        super();
-
-        this.state = {
-            status:''
-        }
-    }
-    render(){
+const SignInForm =()=>{
         return(
-            <div>
-                <input type="text"/>
-                <input type="password"/>
-                <button id='loginBtn'onClick={this.firebaseLogin.bind(this)}>Login</button>
-                <button id='fbLogBtn' onClick={facebookLogin()}>Conectate con Facebook</button>
-            </div>
+                <Row>
+                    <Input type="email" label="Email" s={12} />
+                    <Input type="password" label="password" s={12} />
+                    <Button waves='light'>button<Icon left>send</Icon></Button>
+                    <Button waves='light'>button<Icon right>send</Icon></Button>
+                </Row>
         )
-    }
-    firebaseLogin(){
-        console.log(this.state);
-        
-    }
 }
+
 
 
 export default SignInForm

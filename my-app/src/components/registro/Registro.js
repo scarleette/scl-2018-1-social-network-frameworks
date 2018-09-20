@@ -12,6 +12,7 @@ class Registro extends Component {
     return (
       <div className = "contenedor">
         <div className = 'title'>
+        <p>Holaaa Registro</p>
           <Titulo  titulo= "Little Pet Society"/>
           <Text texto = "Registrate en nuestra comunidad"/>
         </div>

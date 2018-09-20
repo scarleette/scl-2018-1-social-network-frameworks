@@ -1,18 +1,25 @@
-import React, {Component} from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Titulo from '../registro/Titulo';
-import Link from './Link';
+import Registro from '../registro/Registro';
+import SignInForm from './SignInForm';
 
-class Login extends Component {
-    constructor(){
-        super();
+
+
+const Login = () =>{
+
+        return (
+
+        <Router>
+            <div>
+                <Titulo titulo="LittlePetSociety" />
+                <SignInForm />
+                <Link to="/registro">Registrate con Nosotros</Link>
+                <Route path="/registro" component={Registro}></Route>
+            </div>
+        </Router>
+        )
     }
-    render(){
-        return
-        <div>
-            <Titulo titulo="LittlePetSociety" />
-            <Link />
-        </div>
-    }
-}
+
 
 export default Login;
