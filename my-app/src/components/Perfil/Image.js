@@ -1,10 +1,10 @@
 import React from 'react';
-import {Card} from 'react.materialize';
+import {Card, CardTitle} from 'react-materialize';
 
 const Image = ()=> {
     return(
         <div>
-            <Card className='small' header={<CardTitle image='img/sample-1.jpg'>User Name</CardTitle>}>
+            <Card className='small' header={<CardTitle image='img/sample-1.jpg'>UserrName</CardTitle>}>
             </Card>
         </div>
         )
