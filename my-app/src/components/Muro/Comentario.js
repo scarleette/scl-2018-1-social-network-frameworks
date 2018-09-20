@@ -1,5 +1,5 @@
 import React, { Component } from 'react'; 
-import vistaMuro from './vistaMuro.css';
+import './vistaMuro.css';
 import {Row, Col, Button} from 'react-materialize';
 
 class Comentario extends Component {
