@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
 import Registro from './components/registro/Registro';
+import VistaMuro from './components/Muro/VistaMuro';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Registro/>
+        {/* <div className = "registro">
+          <Registro/>
+        </div> */}
+        <div className = "muro">
+          <VistaMuro/>
+        </div>
+        
       </div>
     );
   }
