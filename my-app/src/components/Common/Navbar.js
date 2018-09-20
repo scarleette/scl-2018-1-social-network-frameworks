@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Navbar, NavItem, Icon, } from 'react-materialize';
+import {SideNav, SideNavItem, Button } from 'react-materialize';
 
 class Navbar extends Component{
     constructor(){
@@ -7,14 +7,24 @@ class Navbar extends Component{
     }
     render(){
         return(
-            <div>
-                <Navbar brand='logo' right>
-                    <NavItem href='get-started.html'><Icon>search</Icon></NavItem>
-                    <NavItem href='get-started.html'><Icon>view_module</Icon></NavItem>
-                    <NavItem href='get-started.html'><Icon>refresh</Icon></NavItem>
-                    <NavItem href='get-started.html'><Icon>more_vert</Icon></NavItem>
-                </Navbar>
-            </div>
+            
+                <SideNav
+                    trigger={<Button href='#!icon' icon='more_vert' > </Button>}
+                    options={{ closeOnClick: true }}>
+                    <SideNavItem userView
+                        user={{
+                        background: 'img/office.jpg',
+                        image: 'img/yuna.jpg',
+                        name: 'John Doe',
+                        email: 'jdandturk@gmail.com'
+                        }}/>
+                    <SideNavItem href='#!icon' icon='cloud'>First Link With Icon</SideNavItem>
+                    <SideNavItem href='#!second'>Second Link</SideNavItem>
+                    <SideNavItem divider />
+                    <SideNavItem subheader>Subheader</SideNavItem>
+                    <SideNavItem waves href='#!third'>Third Link With Waves</SideNavItem>
+                </SideNav>
+            
         )
     }
 }
