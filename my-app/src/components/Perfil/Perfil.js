@@ -21,4 +21,4 @@ class Perfil extends Component{
     }
 }
 
-export default Perfil
+export default Perfil;
