@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import * as firebase from 'firebase';
 import './App.css';
 import Login from '../src/components/Login/Login';
 import Perfil from '../src/components/Perfil/Perfil';
