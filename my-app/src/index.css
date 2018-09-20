@@ -3,3 +3,12 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.registro {
+  background-color: rgb(170, 211, 211);
+  margin: auto;
+  padding: 5em;
+}
+.muro {
+  background-color: bisque;
+  margin: auto;
+}

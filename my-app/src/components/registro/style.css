@@ -1,18 +1,16 @@
-
 .title {
   text-align: center;
   padding: 3em;
 }
 
-.registro {
-  padding: 10em;
-  display: flex;
-  flex-direction: column;
-}
-
 .contenedor {
   background-color: rgb(184, 221, 221);
   margin: 15em;
+}
+
+.formulario {
+  text-align: center;
+  padding: 10em;
 }
 
 .button {
