@@ -21,4 +21,8 @@ class Perfil extends Component{
     }
 }
 
+<<<<<<< HEAD
 export default Perfil;
+=======
+export default Perfil
+>>>>>>> 6f30397c5fed3a4fbd403635191acaaf83fe9895
