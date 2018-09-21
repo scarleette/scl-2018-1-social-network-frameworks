@@ -14,8 +14,8 @@ class NavBar extends Component {
           <NavItem href='components.html'><Icon>help_outline</Icon></NavItem>
           <NavItem href='components.html'><Icon>chrome_reader_mode</Icon></NavItem>
           <NavItem href='components.html'><Icon>chat</Icon></NavItem>
+          <NavItem href='components.html'><Icon>input</Icon></NavItem>
           <NavItem divider />
-          <Button waves='light'>Log Out<Icon right>exit_to_app</Icon></Button>
         </Navbar>
       </div>
     )
