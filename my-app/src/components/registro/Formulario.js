@@ -7,8 +7,6 @@ import {Button, Icon, Input, Row} from 'react-materialize'
 class Formulario extends Component {
   constructor() {
     super();
-
-    this.state = [];
   }
   render() {
     return (
@@ -24,6 +22,7 @@ class Formulario extends Component {
           </div>
       </div>
     )
+    
   }
 }
 
