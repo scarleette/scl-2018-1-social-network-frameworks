@@ -5,7 +5,7 @@ import Login from '../src/components/Login/Login';
 import Registro from './components/registro/Registro';
 import VistaMuro from './components/Muro/VistaMuro';
 import Perfil from '../src/components/Perfil/Perfil';
-import Buscador from '../src/components/buscador/Buscador';
+
 // // import * as firebase from 'firebase';
 
 // // Initialize Firebase
@@ -35,9 +35,6 @@ class App extends Component {
         </div>
          <div>
           <Perfil/>
-        </div>
-        <div>
-          <Buscador/>
         </div>
     </div>
     );
