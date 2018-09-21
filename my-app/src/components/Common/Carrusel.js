@@ -7,14 +7,17 @@ class Carrusel extends Component{
     }
     render(){
         return(
+            <div>
+                <h1>Carrusel</h1>
+            </div>
             
-        <Carousel images={[
-            'https://lorempixel.com/250/250/nature/1',
-            'https://lorempixel.com/250/250/nature/2',
-            'https://lorempixel.com/250/250/nature/3',
-            'https://lorempixel.com/250/250/nature/4',
-            'https://lorempixel.com/250/250/nature/5'
-        ]} />
+        // <Carousel images={[
+        //     'https://lorempixel.com/250/250/nature/1',
+        //     'https://lorempixel.com/250/250/nature/2',
+        //     'https://lorempixel.com/250/250/nature/3',
+        //     'https://lorempixel.com/250/250/nature/4',
+        //     'https://lorempixel.com/250/250/nature/5'
+        // ]} />
             
         )
     }

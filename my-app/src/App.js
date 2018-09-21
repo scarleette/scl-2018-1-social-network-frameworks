@@ -6,9 +6,9 @@ import Registro from './components/registro/Registro';
 import VistaMuro from './components/Muro/VistaMuro';
 import Perfil from '../src/components/Perfil/Perfil';
 import Buscador from '../src/components/buscador/Buscador';
-//import * as firebase from 'firebase';
+// // import * as firebase from 'firebase';
 
-// Initialize Firebase
+// // Initialize Firebase
 // var config = {
 //   apiKey: "AIzaSyAXTZOPfhB0mKN47rxIuMs9H_mc8odWS5g",
 //   authDomain: "red-social-framework.firebaseapp.com",
