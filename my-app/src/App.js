@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Registro from './components/registro/Registro';
 import VistaMuro from './components/Muro/VistaMuro';
-// import Login from '../src/components/Login/Login';
+import Login from '../src/components/Login/Login';
 import Perfil from '../src/components/Perfil/Perfil';
 import firebase from 'firebase';
 
@@ -24,6 +24,9 @@ class App extends Component {
       <div>
         <div className = "registro">
           <Registro/>
+        </div>
+        <div>
+          <Login/>
         </div>
         <div className = "muro">
           <VistaMuro/>
