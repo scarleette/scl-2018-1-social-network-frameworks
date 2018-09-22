@@ -12,7 +12,7 @@ const Login = () =>{
 	return (
 
 		<Router>
-			<div>
+			<div className = "containerLogin">
 				<Titulo titulo="Little Pet Society" />
 				<SignInForm />
 				<LoginGoogle/>
