@@ -24,7 +24,7 @@ import TodoList from './Lista';
 
 // export default Comentario;
 
-class TodoApp extends React.Component {
+class TodoApp extends Component {
   constructor(props) {
     super(props);
     this.state = { 

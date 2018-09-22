@@ -1,26 +1,51 @@
 import React, { Component } from 'react';
-import {Button, Icon, Input, Row} from 'react-materialize'
+import {Button, Icon, Input, Row, Col} from 'react-materialize';
+import firebase from '../../firebase/firebase';
 
 
 class Formulario extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      
+      email: '',
+      password: ''
+
+    }
+
+  this.handleChange = this.handleChange.bind(this);
+  this.registrarUsuario = this.registrarUsuario.bind(this);
+
   }
+ 
   render() {
     return (
       <div>
         <Row>
-          <Input placeholder = "First Name" s={12} label="First Name"><Icon>perm_identity</Icon></Input>
-          <Input placeholder = "Last Name"s={12} label="Last Name"><Icon>perm_identity</Icon></Input>
-          <Input label="Email" s={12}><Icon>mail_outline</Icon></Input>
-          <Input type="password" label="Password" s={12}><Icon>visibility_of</Icon></Input>
+            <Input s={12} placeholder = "First Name"><Icon>perm_identity</Icon></Input>
+            <Input s={12} placeholder = "Last Name"><Icon>perm_identity</Icon></Input>
+            <Input s={12} value={this.state.email} onChange={this.handleChange} type="email" name="email" placeholder="Email"><Icon>account_circle</Icon></Input>
+            <Input s={12} value={this.state.password} onChange={this.handleChange} type="password" name="password"  placeholder="Password"><Icon >lock</Icon></Input>
         </Row>
+        
           <div className = "button">
-            <Button waves='light'><Icon>thumb_up</Icon>Registrate</Button>
+            <Button waves='light' onClick={this.registrarUsuario}><Icon>thumb_up</Icon>Registrate</Button>
           </div>
       </div>
     )
   }
-}
+  registrarUsuario(event) {
+    event.preventDefault();
+    firebase.auth().createUserWithEmailAndPassword(this.state.email, this.state.password)
+    .then((user)=>{console.log(user)})
+    .catch((error) => {
+        console.log(error);
+      })
+  }
+  handleChange(e) {
+  this.setState({ [e.target.name]: e.target.value });
+  }
+};
 
 export default Formulario;
