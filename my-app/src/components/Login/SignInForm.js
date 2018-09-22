@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Row, Input, Button, Icon} from 'react-materialize';
-import firebase from '../../firebase/firebase';
 
 class SignInForm extends Component{
 	constructor(){
@@ -10,20 +9,8 @@ class SignInForm extends Component{
 			email : '',
 			password : ''
 		}
-	
-		firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password)
-		.then( user => {
-
-<<<<<<< HEAD
-			Location.href = '../perfil/perfil.js';
-
-		})
-		.catch(function(error) {
-
-			console.log(error);
-		});
-		
 	}
+			
 	render(){
 		return(
 			<div>
@@ -38,6 +25,15 @@ class SignInForm extends Component{
 }
 
 export default SignInForm;
-=======
-export default SignInForm;
->>>>>>> f275c03021bae4935220da39b98bc62e743c7557
+
+
+	// firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password)
+	// 		.then( user => {
+
+	// 			Location.href = '../perfil/perfil.js';
+
+	// 		})
+	// 		.catch(function(error) {
+
+	// 			console.log(error);
+	// 		});
