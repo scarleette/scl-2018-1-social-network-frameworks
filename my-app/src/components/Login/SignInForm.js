@@ -14,6 +14,7 @@ class SignInForm extends Component{
 		firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password)
 		.then( user => {
 
+<<<<<<< HEAD
 			Location.href = '../perfil/perfil.js';
 
 		})
@@ -37,3 +38,6 @@ class SignInForm extends Component{
 }
 
 export default SignInForm;
+=======
+export default SignInForm;
+>>>>>>> f275c03021bae4935220da39b98bc62e743c7557

@@ -21,8 +21,8 @@ class App extends Component {
         </div>
         <div className = "muro">
           <VistaMuro/>
-        </div>     
-      </div>
+        </div>
+    </div>
     );
   }
 }

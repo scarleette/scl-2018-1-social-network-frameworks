@@ -23,6 +23,7 @@ import TodoList from './Lista';
 // }
 
 // export default Comentario;
+
 class TodoApp extends React.Component {
   constructor(props) {
     super(props);

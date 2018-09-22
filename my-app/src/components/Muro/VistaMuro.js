@@ -15,7 +15,6 @@ class VistaMuro extends Component {
     return (
       <div>
         <div>
-         
           <Navbar/>
           <Carrusel/>
         </div>
