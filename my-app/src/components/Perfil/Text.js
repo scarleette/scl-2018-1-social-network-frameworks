@@ -3,7 +3,7 @@ import React from 'react';
 const Text = () => {
     return(
         <div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste nisi sapiente optio consequuntur quae, magnam quam i
+            <p>PARRAFO Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste nisi sapiente optio consequuntur quae, magnam quam i
             </p>
         </div>
     )
