@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 // import Login from '../src/components/Login/Login';
 import Registro from './components/registro/Registro';
-// import VistaMuro from './components/Muro/VistaMuro';
-// import Perfil from '../src/components/Perfil/Perfil';
+import VistaMuro from './components/Muro/VistaMuro';
+import Perfil from '../src/components/Perfil/Perfil';
 
 
 class App extends Component {

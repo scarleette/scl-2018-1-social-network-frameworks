@@ -7,7 +7,13 @@ import SignInForm from './SignInForm';
 
 
 const Login = () =>{
+<<<<<<< HEAD
+
 	return (
+
+=======
+	return (
+>>>>>>> f275c03021bae4935220da39b98bc62e743c7557
 		<Router>
 			<div>
 				<Titulo titulo="Little Pet Society" />
@@ -17,7 +23,11 @@ const Login = () =>{
 			</div>
 		</Router>
 	)
+<<<<<<< HEAD
+    }
+=======
 };
+>>>>>>> f275c03021bae4935220da39b98bc62e743c7557
 
 
 export default Login;
