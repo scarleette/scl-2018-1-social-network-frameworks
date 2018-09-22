@@ -1,11 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Navbar, NavItem, Icon, Button } from 'react-materialize';
 
-class NavBar extends Component {
-  constructor() {
-    super();
-  }
-  render() {
+const NavBar = () => {
     return (
       <div>
         <Navbar brand='Little Pet Society' right>
@@ -21,7 +17,6 @@ class NavBar extends Component {
         </Navbar>
       </div>
     )
-  }
-}
+  };
 
 export default NavBar;
