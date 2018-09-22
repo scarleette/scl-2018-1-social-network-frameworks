@@ -1,22 +1,17 @@
 import React, {Component} from 'react';
 import {Carousel} from 'react-materialize';
+// import './carrusel.css';
 
-class Carrusel extends Component{
-    constructor(){
-    super();
-    }
-    render(){
-        return(
-            
-        <Carousel images={[
-            'https://lorempixel.com/250/250/nature/1',
-            'https://lorempixel.com/250/250/nature/2',
-            'https://lorempixel.com/250/250/nature/3',
-            'https://lorempixel.com/250/250/nature/4',
-            'https://lorempixel.com/250/250/nature/5'
-        ]} />
-            
-        )
-    }
+const Carrusel = () => {
+	return(
+		<Carousel options={{ fullWidth: true }} images={[
+			"https://www.losreplicantes.com/images/articulos/1000/1899/top.jpg",
+			// "http://static.t13.cl/images/sizes/1200x675/1516843807-99740205gettyimages-459467912.jpg",
+			'https://lorempixel.com/800/400/food/3',
+			'https://lorempixel.com/800/400/food/4',
+			'https://lorempixel.com/800/400/food/5'
+		]} />
+	)
 }
-export default Carrusel
+    
+export default Carrusel;

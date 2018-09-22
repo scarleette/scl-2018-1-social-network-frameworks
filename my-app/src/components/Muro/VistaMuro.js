@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './vistaMuro.css';
 import Navbar from '../Common/Navbar';
 import Comentario from './Comentario';
+import TodoApp from './Comentario';
+import Carrusel from '../Common/Carrusel';
 
 
 
@@ -13,10 +15,13 @@ class VistaMuro extends Component {
     return (
       <div>
         <div>
+         
           <Navbar/>
+          <Carrusel/>
         </div>
         <div>
-          <Comentario/>
+          {/* <Comentario/> */}
+          <TodoApp/>
         </div>
       </div>
     )
