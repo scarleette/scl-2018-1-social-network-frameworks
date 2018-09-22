@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import {Button, Icon, Input, Row} from 'react-materialize'
 
 
-
-
 class Formulario extends Component {
   constructor() {
     super();
@@ -22,7 +20,6 @@ class Formulario extends Component {
           </div>
       </div>
     )
-    
   }
 }
 

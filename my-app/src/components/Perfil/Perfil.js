@@ -5,20 +5,19 @@ import Username from '../Perfil/Username';
 
 class Perfil extends Component{
 	constructor(){
-		super();
+			super();
 	}
 	render(){
 		return(
-		<div>
 			<div>
-				<Image />
-				<Text />
-				<Username />
+					<div>
+						<Image />
+						<Text />
+						<Username />
+					</div>
 			</div>
-				
-		</div>
 		)
 	}
-}
+};
 
 export default Perfil;

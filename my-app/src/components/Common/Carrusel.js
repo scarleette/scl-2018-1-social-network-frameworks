@@ -1,7 +1,6 @@
 import React from 'react';
 import {Carousel} from 'react-materialize';
 
-
 const Carrusel = () => {
 	return(
 		<Carousel options={{ fullWidth: true }} images={[
