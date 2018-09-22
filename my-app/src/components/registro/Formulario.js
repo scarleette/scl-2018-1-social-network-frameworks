@@ -28,7 +28,6 @@ class Formulario extends Component {
             <Input s={12} value={this.state.email} onChange={this.handleChange} type="email" name="email" placeholder="Email"><Icon>account_circle</Icon></Input>
             <Input s={12} value={this.state.password} onChange={this.handleChange} type="password" name="password"  placeholder="Password"><Icon >lock</Icon></Input>
         </Row>
-        
           <div className = "button">
             <Button waves='light' onClick={this.registrarUsuario}><Icon>thumb_up</Icon>Registrate</Button>
           </div>

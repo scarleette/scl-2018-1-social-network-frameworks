@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-// import Login from '../src/components/Login/Login';
+import Login from '../src/components/Login/Login';
 import Registro from './components/registro/Registro';
-// import VistaMuro from './components/Muro/VistaMuro';
-// import Perfil from '../src/components/Perfil/Perfil';
+import VistaMuro from './components/Muro/VistaMuro';
+import Perfil from '../src/components/Perfil/Perfil';
 
 
 class App extends Component {
@@ -11,16 +11,16 @@ class App extends Component {
     return (
       <div>
         <div className = "Login">
-          {/* <Login/> */}
+          <Login/>
         </div>
         <div className = "registro">
           <Registro/>
         </div>
         <div>
-          {/* <Perfil/> */}
+          <Perfil/>
         </div>
         <div className = "muro">
-          {/* <VistaMuro/> */}
+          <VistaMuro/>
         </div>
     </div>
     );
