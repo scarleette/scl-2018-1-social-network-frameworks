@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Image from '../Perfil/Image';
+import Carrusel from '../Common/Carrusel';
 import Text from '../Perfil/Text';
 import Username from '../Perfil/Username';
 
@@ -11,7 +11,7 @@ class Perfil extends Component{
 		return(
 		<div>
 			<div>
-				<Image />
+				<Carrusel />
 				<Text />
 				<Username />
 			</div>
