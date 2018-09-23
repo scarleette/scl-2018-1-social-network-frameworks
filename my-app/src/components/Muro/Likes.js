@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button, Icon } from 'react-materialize';
 
 class SecondScreen extends Component {
   constructor() {
@@ -11,8 +12,7 @@ class SecondScreen extends Component {
   render() {
     return (
       <div>
-        <p>{this.state.contador}</p>
-        <button onClick={this.contadorLikes.bind(this)}>Like</button>
+        <Button onClick={this.contadorLikes.bind(this)}>Likes<Icon left>star</Icon> {this.state.contador} </Button>
       </div>
     )
   }

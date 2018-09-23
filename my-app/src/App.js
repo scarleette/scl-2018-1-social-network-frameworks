@@ -17,10 +17,10 @@ class App extends Component {
           <Registro/>
         </div>
         <div>
-          {/* <Perfil/> */}
+          <Perfil/>
         </div>
         <div className = "muro">
-          {/* <VistaMuro/> */}
+          <VistaMuro/>
         </div>
     </div>
     );
