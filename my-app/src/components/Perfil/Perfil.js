@@ -4,9 +4,9 @@ import Text from '../Perfil/Text';
 import Username from '../Perfil/Username';
 import Navbar from '../Common/Navbar';
 class Perfil extends Component{
-	constructor(){
-			super();
-	}
+	// constructor(){
+	// 		super();
+	// }
 	render(){
 		return(
 			<div>

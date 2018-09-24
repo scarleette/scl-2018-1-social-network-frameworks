@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import Titulo from './Titulo';
-import style from './style.css';
+import './style.css';
 import Text from './Text';
 import Formulario from './Formulario';
 
 class Registro extends Component {
-  constructor() {
-    super();
-  }
+  // constructor() {
+  //   super();
+  // }
   render() {
     return (
       <div className = "contenedor">
