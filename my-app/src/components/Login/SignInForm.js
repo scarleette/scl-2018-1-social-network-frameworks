@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
-=======
 import {Redirect,withRouter} from 'react-router-dom';
->>>>>>> 656b1ab334d70c05216a31626ed1c1f25125060a
 import {Button, Icon, Input, Row} from 'react-materialize';
 import firebase from '../../firebase/firebase';
 import Perfil from '../Perfil/Perfil';

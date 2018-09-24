@@ -11,26 +11,6 @@ import VistaBuscador from './components/BuscadorDeClinicas/VistaBuscador';
 class App extends Component {
   render() {
     return (
-<<<<<<< HEAD
-      <div>
-        <div className = "Login">
-          <Login/>
-        </div>
-        <div className = "registro">
-          <Registro/>
-        </div>
-        <div>
-          <Perfil/>
-        </div>
-        <div className = "muro">
-          <VistaMuro/>
-        </div>
-        <div>
-          <VistaBuscador/>
-        </div>
-        
-    </div>
-=======
       
         <Router>
           <div>
@@ -43,7 +23,6 @@ class App extends Component {
         </Router>
       
     
->>>>>>> 656b1ab334d70c05216a31626ed1c1f25125060a
     );
   }
 }
