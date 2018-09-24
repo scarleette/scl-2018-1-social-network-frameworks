@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import {Button, Icon, Input, Row, Col} from 'react-materialize';
+import {Redirect,withRouter} from 'react-router-dom';
+import {Button, Icon, Input, Row} from 'react-materialize';
 import firebase from '../../firebase/firebase';
+import Perfil from '../Perfil/Perfil';
+import Login from './Login';
 
 
 class SignInForm extends Component {
@@ -10,7 +13,8 @@ class SignInForm extends Component {
     this.state = {
       
       email: '',
-      password: ''
+      password: '',
+      usuarioLogueado: null
 
     }
 
@@ -18,8 +22,22 @@ class SignInForm extends Component {
   this.usuarioLogueado = this.usuarioLogueado.bind(this);
 
   }
+  handleChange(e) {
+    this.setState({ [e.target.name]: e.target.value });
+}
+usuarioLogueado(event) {
+  event.preventDefault();
+  firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password).catch((error) => {
+    
+      console.log(error);
+    })
+}
+
  
   render() {
+      if (this.state.usuarioLogueado !== null){
+        return <Redirect to='/perfil' />
+      }
     return (
       <div>
         <Row>
@@ -33,23 +51,10 @@ class SignInForm extends Component {
       </div>
     )
   }
-  usuarioLogueado(event) {
-    event.preventDefault();
-    firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password)
-		.then((user)=>
-			
-			{console.log(user)})
+ 
 
-    .catch((error) => {
-			
-        console.log(error);
-      })
-	}
-
-  		handleChange(e) {
-  		this.setState({ [e.target.name]: e.target.value });
-  }
+  		
 };
 
-export default SignInForm ;
+export default withRouter(SignInForm) ;
 
