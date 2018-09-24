@@ -1,9 +1,13 @@
 import React from 'react';
+import {Row} from 'react-materialize';
+import Registro from '../registro/Formulario';
 
 const Username =() => {
 	return(
 		<div>
-			<h4>User Name</h4>
+			<Row>
+				<h4>{}</h4>
+			</Row>
 		</div>
 	)
 };
