@@ -4,6 +4,7 @@ import Login from '../src/components/Login/Login';
 import Registro from './components/registro/Registro';
 import VistaMuro from './components/Muro/VistaMuro';
 import Perfil from '../src/components/Perfil/Perfil';
+import VistaBuscador from './components/BuscadorDeClinicas/VistaBuscador';
 
 
 class App extends Component {
@@ -22,6 +23,10 @@ class App extends Component {
         <div className = "muro">
           <VistaMuro/>
         </div>
+        <div>
+          <VistaBuscador/>
+        </div>
+        
     </div>
     );
   }
