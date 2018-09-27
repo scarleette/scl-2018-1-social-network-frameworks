@@ -11,18 +11,14 @@ import VistaBuscador from './components/BuscadorDeClinicas/VistaBuscador';
 class App extends Component {
   render() {
     return (
-      
-        <Router>
-          <div>
-          <Route exact path="/" component={Login}/>
-          <Route path="/registro" component={Registro}/>
-          <Route path="/perfil" component={Perfil}/>
-          <Route path="/muro" component={VistaMuro}/>
-          <Route path="/registro" component={Registro}/>
-          </div>
-        </Router>
-      
-    
+      <Router basename={process.env.PUBLIC_URL + '/'}>
+        <div>
+        <Route exact path="/" component={Login}/>
+        <Route path="/registro" component={Registro}/>
+        <Route path="/perfil" component={Perfil}/>
+        <Route path="/muro" component={VistaMuro}/>
+        </div>
+    </Router>    
     );
   }
 }

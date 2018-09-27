@@ -28,13 +28,15 @@ class SignInForm extends Component {
 }
 usuarioLogueado(event) {
   event.preventDefault();
-  firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password).catch((error) => {
+  firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password)
+  .then(user => {
+    console.log(user);
     
+  }).catch((error) => { 
       console.log(error);
     })
 }
 
- 
   render() {
       if (this.state.usuarioLogueado !== null){
         return <Redirect to='/perfil' />
