@@ -2,10 +2,9 @@
     "name": "my-app",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://github.com/scarleette.github.io/my-app",
+    "homepage": "https://red-social-framework.firebaseapp.com",
     "dependencies": {
         "firebase": "^5.5.1",
-        "gh-pages": "^2.0.0",
         "react": "^16.5.0",
         "react-dom": "^16.5.0",
         "react-materialize": "^2.4.5",
@@ -16,8 +15,6 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -b master -d build",
         "eject": "react-scripts eject"
     }
 }

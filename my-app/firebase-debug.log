@@ -1,0 +1,294 @@
+[debug] [2018-09-27T16:37:31.848Z] ----------------------------------------------------------------------
+[debug] [2018-09-27T16:37:31.851Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-09-27T16:37:31.851Z] CLI Version:   4.2.1
+[debug] [2018-09-27T16:37:31.851Z] Platform:      win32
+[debug] [2018-09-27T16:37:31.851Z] Node Version:  v9.5.0
+[debug] [2018-09-27T16:37:31.851Z] Time:          Thu Sep 27 2018 13:37:31 GMT-0300 (Hora verano Sudamérica Pacífico)
+[debug] [2018-09-27T16:37:31.851Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-27T16:37:31.863Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-27T16:37:31.863Z] > authorizing via signed-in user
+[debug] [2018-09-27T16:37:31.866Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/red-social-framework  
+ 
+[debug] [2018-09-27T16:37:33.523Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'red-social-framework'...
+[info] 
+[info] i  deploying database, storage, firestore, hosting
+[debug] [2018-09-27T16:37:33.843Z] Error: ENOENT: no such file or directory, open 'C:\Users\Administrador\Desktop\pruebas-de-deploy\scl-2018-1-social-network-frameworks\my-app\database.rules.json'
+    at Object.fs.openSync (fs.js:663:18)
+    at Object.fs.readFileSync (fs.js:568:33)
+    at Config.readProjectFile (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:176:22)
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:52:42
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:4911:15
+    at baseForOwn (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:2996:24)
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:4880:18
+    at Function.forEach (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:9344:14)
+    at module.exports (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:49:5)
+    at _chain (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:26:38)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-09-27T16:40:55.965Z] ----------------------------------------------------------------------
+[debug] [2018-09-27T16:40:55.967Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-09-27T16:40:55.967Z] CLI Version:   4.2.1
+[debug] [2018-09-27T16:40:55.967Z] Platform:      win32
+[debug] [2018-09-27T16:40:55.967Z] Node Version:  v9.5.0
+[debug] [2018-09-27T16:40:55.967Z] Time:          Thu Sep 27 2018 13:40:55 GMT-0300 (Hora verano Sudamérica Pacífico)
+[debug] [2018-09-27T16:40:55.967Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-27T16:40:55.977Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-27T16:40:55.977Z] > authorizing via signed-in user
+[debug] [2018-09-27T16:40:55.980Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/red-social-framework  
+ 
+[debug] [2018-09-27T16:40:58.595Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'red-social-framework'...
+[info] 
+[info] i  deploying database, storage, firestore, hosting
+[debug] [2018-09-27T16:40:58.912Z] Error: ENOENT: no such file or directory, open 'C:\Users\Administrador\Desktop\pruebas-de-deploy\scl-2018-1-social-network-frameworks\my-app\database.rules.json'
+    at Object.fs.openSync (fs.js:663:18)
+    at Object.fs.readFileSync (fs.js:568:33)
+    at Config.readProjectFile (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:176:22)
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:52:42
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:4911:15
+    at baseForOwn (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:2996:24)
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:4880:18
+    at Function.forEach (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:9344:14)
+    at module.exports (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:49:5)
+    at _chain (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:26:38)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-09-27T16:41:08.777Z] ----------------------------------------------------------------------
+[debug] [2018-09-27T16:41:08.780Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-09-27T16:41:08.782Z] CLI Version:   4.2.1
+[debug] [2018-09-27T16:41:08.782Z] Platform:      win32
+[debug] [2018-09-27T16:41:08.782Z] Node Version:  v9.5.0
+[debug] [2018-09-27T16:41:08.782Z] Time:          Thu Sep 27 2018 13:41:08 GMT-0300 (Hora verano Sudamérica Pacífico)
+[debug] [2018-09-27T16:41:08.782Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-27T16:41:08.790Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-09-27T16:41:08.790Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Administrador\Desktop\pruebas-de-deploy\scl-2018-1-social-network-frameworks\my-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[debug] [2018-09-27T16:41:57.625Z] ----------------------------------------------------------------------
+[debug] [2018-09-27T16:41:57.630Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-09-27T16:41:57.630Z] CLI Version:   4.2.1
+[debug] [2018-09-27T16:41:57.630Z] Platform:      win32
+[debug] [2018-09-27T16:41:57.630Z] Node Version:  v9.5.0
+[debug] [2018-09-27T16:41:57.630Z] Time:          Thu Sep 27 2018 13:41:57 GMT-0300 (Hora verano Sudamérica Pacífico)
+[debug] [2018-09-27T16:41:57.630Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-27T16:41:57.637Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-09-27T16:41:57.637Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Administrador\Desktop\pruebas-de-deploy\scl-2018-1-social-network-frameworks\my-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[debug] [2018-09-27T16:46:05.765Z] ----------------------------------------------------------------------
+[debug] [2018-09-27T16:46:05.765Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-09-27T16:46:05.765Z] CLI Version:   4.2.1
+[debug] [2018-09-27T16:46:05.765Z] Platform:      win32
+[debug] [2018-09-27T16:46:05.765Z] Node Version:  v9.5.0
+[debug] [2018-09-27T16:46:05.765Z] Time:          Thu Sep 27 2018 13:46:05 GMT-0300 (Hora verano Sudamérica Pacífico)
+[debug] [2018-09-27T16:46:05.765Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-27T16:46:05.780Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-27T16:46:05.780Z] > authorizing via signed-in user
+[debug] [2018-09-27T16:46:05.780Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/red-social-framework  
+ 
+[debug] [2018-09-27T16:46:07.725Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'red-social-framework'...
+[info] 
+[info] i  deploying database, storage, firestore, hosting
+[debug] [2018-09-27T16:46:08.074Z] Error: ENOENT: no such file or directory, open 'C:\Users\Administrador\Desktop\pruebas-de-deploy\scl-2018-1-social-network-frameworks\my-app\database.rules.json'
+    at Object.fs.openSync (fs.js:663:18)
+    at Object.fs.readFileSync (fs.js:568:33)
+    at Config.readProjectFile (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:176:22)
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:52:42
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:4911:15
+    at baseForOwn (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:2996:24)
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:4880:18
+    at Function.forEach (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:9344:14)
+    at module.exports (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:49:5)
+    at _chain (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:26:38)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-09-27T16:49:20.282Z] ----------------------------------------------------------------------
+[debug] [2018-09-27T16:49:20.297Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-09-27T16:49:20.297Z] CLI Version:   4.2.1
+[debug] [2018-09-27T16:49:20.297Z] Platform:      win32
+[debug] [2018-09-27T16:49:20.297Z] Node Version:  v9.5.0
+[debug] [2018-09-27T16:49:20.297Z] Time:          Thu Sep 27 2018 13:49:20 GMT-0300 (Hora verano Sudamérica Pacífico)
+[debug] [2018-09-27T16:49:20.297Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-27T16:49:20.297Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-27T16:49:20.297Z] > authorizing via signed-in user
+[debug] [2018-09-27T16:49:20.313Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/red-social-framework  
+ 
+[debug] [2018-09-27T16:49:21.267Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'red-social-framework'...
+[info] 
+[info] i  deploying database, storage, firestore, hosting
+[debug] [2018-09-27T16:49:21.595Z] Error: ENOENT: no such file or directory, open 'C:\Users\Administrador\Desktop\pruebas-de-deploy\scl-2018-1-social-network-frameworks\my-app\database.rules.json'
+    at Object.fs.openSync (fs.js:663:18)
+    at Object.fs.readFileSync (fs.js:568:33)
+    at Config.readProjectFile (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:176:22)
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:52:42
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:4911:15
+    at baseForOwn (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:2996:24)
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:4880:18
+    at Function.forEach (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:9344:14)
+    at module.exports (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:49:5)
+    at _chain (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:26:38)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-09-27T16:49:53.343Z] ----------------------------------------------------------------------
+[debug] [2018-09-27T16:49:53.343Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-09-27T16:49:53.343Z] CLI Version:   4.2.1
+[debug] [2018-09-27T16:49:53.343Z] Platform:      win32
+[debug] [2018-09-27T16:49:53.343Z] Node Version:  v9.5.0
+[debug] [2018-09-27T16:49:53.343Z] Time:          Thu Sep 27 2018 13:49:53 GMT-0300 (Hora verano Sudamérica Pacífico)
+[debug] [2018-09-27T16:49:53.343Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-27T16:49:53.359Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-27T16:49:53.359Z] > authorizing via signed-in user
+[debug] [2018-09-27T16:49:53.359Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/red-social-framework  
+ 
+[debug] [2018-09-27T16:49:54.549Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'red-social-framework'...
+[info] 
+[info] i  deploying database, storage, firestore, hosting
+[debug] [2018-09-27T16:49:54.853Z] Error: ENOENT: no such file or directory, open 'C:\Users\Administrador\Desktop\pruebas-de-deploy\scl-2018-1-social-network-frameworks\my-app\database.rules.json'
+    at Object.fs.openSync (fs.js:663:18)
+    at Object.fs.readFileSync (fs.js:568:33)
+    at Config.readProjectFile (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:176:22)
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:52:42
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:4911:15
+    at baseForOwn (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:2996:24)
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:4880:18
+    at Function.forEach (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:9344:14)
+    at module.exports (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:49:5)
+    at _chain (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:26:38)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-09-27T16:51:15.013Z] ----------------------------------------------------------------------
+[debug] [2018-09-27T16:51:15.016Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-09-27T16:51:15.018Z] CLI Version:   4.2.1
+[debug] [2018-09-27T16:51:15.018Z] Platform:      win32
+[debug] [2018-09-27T16:51:15.018Z] Node Version:  v9.5.0
+[debug] [2018-09-27T16:51:15.018Z] Time:          Thu Sep 27 2018 13:51:15 GMT-0300 (Hora verano Sudamérica Pacífico)
+[debug] [2018-09-27T16:51:15.018Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-27T16:51:15.028Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-27T16:51:15.028Z] > authorizing via signed-in user
+[debug] [2018-09-27T16:51:15.031Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/red-social-framework  
+ 
+[debug] [2018-09-27T16:51:17.316Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'red-social-framework'...
+[info] 
+[info] i  deploying database, storage, firestore, hosting
+[debug] [2018-09-27T16:51:17.623Z] Error: ENOENT: no such file or directory, open 'C:\Users\Administrador\Desktop\pruebas-de-deploy\scl-2018-1-social-network-frameworks\my-app\database.rules.json'
+    at Object.fs.openSync (fs.js:663:18)
+    at Object.fs.readFileSync (fs.js:568:33)
+    at Config.readProjectFile (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:176:22)
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:52:42
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:4911:15
+    at baseForOwn (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:2996:24)
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:4880:18
+    at Function.forEach (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:9344:14)
+    at module.exports (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:49:5)
+    at _chain (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:26:38)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-09-27T17:06:07.564Z] ----------------------------------------------------------------------
+[debug] [2018-09-27T17:06:07.564Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-09-27T17:06:07.564Z] CLI Version:   4.2.1
+[debug] [2018-09-27T17:06:07.564Z] Platform:      win32
+[debug] [2018-09-27T17:06:07.564Z] Node Version:  v9.5.0
+[debug] [2018-09-27T17:06:07.564Z] Time:          Thu Sep 27 2018 14:06:07 GMT-0300 (Hora verano Sudamérica Pacífico)
+[debug] [2018-09-27T17:06:07.564Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-27T17:06:07.580Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-27T17:06:07.580Z] > authorizing via signed-in user
+[debug] [2018-09-27T17:06:07.580Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/red-social-framework  
+ 
+[debug] [2018-09-27T17:06:14.561Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'red-social-framework'...
+[info] 
+[info] i  deploying database, storage, firestore, hosting
+[debug] [2018-09-27T17:06:14.897Z] Error: ENOENT: no such file or directory, open 'C:\Users\Administrador\Desktop\pruebas-de-deploy\scl-2018-1-social-network-frameworks\my-app\database.rules.json'
+    at Object.fs.openSync (fs.js:663:18)
+    at Object.fs.readFileSync (fs.js:568:33)
+    at Config.readProjectFile (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:176:22)
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:52:42
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:4911:15
+    at baseForOwn (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:2996:24)
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:4880:18
+    at Function.forEach (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:9344:14)
+    at module.exports (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:49:5)
+    at _chain (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:26:38)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-09-27T17:42:14.802Z] ----------------------------------------------------------------------
+[debug] [2018-09-27T17:42:14.802Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-09-27T17:42:14.802Z] CLI Version:   4.2.1
+[debug] [2018-09-27T17:42:14.802Z] Platform:      win32
+[debug] [2018-09-27T17:42:14.802Z] Node Version:  v9.5.0
+[debug] [2018-09-27T17:42:14.802Z] Time:          Thu Sep 27 2018 14:42:14 GMT-0300 (Hora verano Sudamérica Pacífico)
+[debug] [2018-09-27T17:42:14.802Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-27T17:42:14.818Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-27T17:42:14.818Z] > authorizing via signed-in user
+[debug] [2018-09-27T17:42:14.818Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-09-27T17:42:14.818Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-09-27T17:42:14.990Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-27T17:42:14.990Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/red-social-framework  
+ 
+[debug] [2018-09-27T17:42:16.275Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'red-social-framework'...
+[info] 
+[info] i  deploying database, storage, firestore, hosting
+[debug] [2018-09-27T17:42:16.596Z] Error: ENOENT: no such file or directory, open 'C:\Users\Administrador\Desktop\pruebas-de-deploy\scl-2018-1-social-network-frameworks\my-app\database.rules.json'
+    at Object.fs.openSync (fs.js:663:18)
+    at Object.fs.readFileSync (fs.js:568:33)
+    at Config.readProjectFile (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:176:22)
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:52:42
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:4911:15
+    at baseForOwn (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:2996:24)
+    at C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:4880:18
+    at Function.forEach (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\lodash\lodash.js:9344:14)
+    at module.exports (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:49:5)
+    at _chain (C:\Users\Administrador\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:26:38)
+[error] 
+[error] Error: An unexpected error has occurred.
