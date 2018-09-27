@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Titulo from '../registro/Titulo';
 import Registro from '../registro/Registro';
 import SignInForm from './SignInForm';
-import LoginGoogle from './LoginGoogle';
+
+import './Login.css';
 
 
 
@@ -15,7 +16,6 @@ const Login = () =>{
 			<div className = "containerLogin">
 				<Titulo titulo="Little Pet Society" />
 				<SignInForm />
-				<LoginGoogle/>
 				<Link to="/registro">Registrate con Nosotros</Link>
 				<Route path="/registro" component={Registro}></Route>   
 			</div>
